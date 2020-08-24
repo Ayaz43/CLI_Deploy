@@ -1,8 +1,7 @@
-
-on: [push]
-
 name: AzureCLISample
-
+on: 
+  push:
+    branches: master
 jobs: 
 
   build-and-deploy:
